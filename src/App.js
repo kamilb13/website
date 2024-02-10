@@ -8,7 +8,7 @@ import EndPage from './EndPage';
 const App = () => {
   return (
     <>
-    <h1>hej</h1>
+    <h1>hejka</h1>
     <Router>
       <Routes>
         <Route path="/" element={<MyForm />} />
