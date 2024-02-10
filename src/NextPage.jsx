@@ -24,7 +24,7 @@ const NextPage = () => {
   const handleNoMouseEnter = () => {
     const newX = Math.random() * (window.innerWidth - 100);
     const newY = Math.random() * (window.innerHeight - 100); 
-    setButtonPosition({ x: newX, y: newY });
+    setButtonPosition({ x: newX, y: newY , a: window.innerHeight / 2 + 250});
   };
   
 
