@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import OtterGifFlower from './OtterGifFlower';
 
 const NextPage = () => {
-  const [buttonPosition, setButtonPosition] = useState({ x: window.innerWidth / 2 + 70, y: window.innerHeight / 2 + 250});
+  const [buttonPosition, setButtonPosition] = useState({ x: window.innerWidth / 2 + 70, y: window.innerHeight / 2 + 250, a: window.innerHeight / 2 + 250});
 
 
   const navigate = useNavigate();
@@ -40,7 +40,7 @@ const NextPage = () => {
       style={{
         position: 'absolute',
         left: '45%',
-        top: buttonPosition.y,
+        top: buttonPosition.a,
         transform: 'translateX(-50%)',
         background: '#a68299',
         borderColor: 'white',
