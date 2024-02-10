@@ -1,0 +1,34 @@
+.balloon {
+    position: fixed;
+    bottom: 0;
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    cursor: pointer;
+    animation: fly 5s linear infinite;
+  }
+  
+  @keyframes fly {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-100vh);
+    }
+  }
+  
+  .popped-balloon {
+    position: fixed;
+    bottom: 0;
+    animation: fadeOut 1s forwards;
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
